@@ -1,0 +1,29 @@
+# Progress
+
+- [x] f1-1 Toolchain, repo skeleton, control files
+- [ ] f1-2 Infrastructure containers: Postgres, Redis, RabbitMQ
+- [ ] f1-3 Model run and RabbitMQ warm-up
+- [ ] f2-1 Express API skeleton
+- [ ] f2-2 Prisma schema and first migration
+- [ ] f2-3 Queue publisher and topology
+- [ ] f3-1 POST /jobs: write first, then publish
+- [ ] f3-2 GET /jobs/:id
+- [ ] f4-1 Worker model module
+- [ ] f4-2 Worker state transitions in SQL
+- [ ] f4-3 Consume loop with ack
+- [ ] f5-1 Dockerfiles for API and worker
+- [ ] f5-2 Compose services and smoke test
+- [ ] f6-1 Idempotent claim/complete and ack-after-commit audit
+- [ ] f6-2 Failure test hook, retries and dead-letter queue
+- [ ] f7-1 API keys and job ownership
+- [ ] f7-2 Redis rate limiter
+- [ ] f7-3 Queue-depth backpressure
+- [ ] f8-1 The sweeper
+- [ ] f8-2 Graceful shutdown
+- [ ] f8-3 The chaos test
+- [ ] f9-1 GET /health, lint/format config, CI workflow
+- [ ] f9-2 Provision the VM, production compose and Caddyfile
+- [ ] f9-3 Build, push, deploy with health gate and rollback
+- [ ] f10-1 One PyTorch thread per worker and dynamic batching
+- [ ] f10-2 report.js, k6 load script, benchmark matrix
+- [ ] f10-3 README, design decisions, demo video

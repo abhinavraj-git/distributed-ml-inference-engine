@@ -1,0 +1,17 @@
+# f1-1 — Tasks
+
+- [x] 1. Toolchain check: run `node -v`, `python3.11 --version`, `docker --version`, `docker compose version`, `git --version`; confirm Docker Desktop memory ≥ 6 GB manually. On mismatch run `which <tool>` and report the official install method. Install nothing. (no files)
+- [x] 2. Confirm none of the target files exist yet. (no files)
+- [x] 3. Create `.gitignore` with `node_modules/`, `.env`, `__pycache__/`, `.venv/`. (`.gitignore`)
+- [x] 4. Create `.env.example` with the exact block from the spec. (`.env.example`)
+- [x] 5. Copy `.env.example` to `.env`; do not stage it. (`.env`)
+- [x] 6. Create `CLAUDE.md`: locked stack, 4 hard rules, shell setup block verbatim. (`CLAUDE.md`)
+- [x] 7. Create `SCOPE.md`: in-scope and out-of-scope lists. (`SCOPE.md`)
+- [x] 8. Create `PROGRESS.md`: all 27 features from the design, in order, each unchecked. (`PROGRESS.md`)
+- [x] 9. Create `IDEAS.md`: parking lot heading for stretch goals. (`IDEAS.md`)
+- [x] 10. Create `README.md`: one paragraph. (`README.md`)
+- [x] 11. Create empty `.gitkeep` files in the 10 directories. (`api/src/routes/.gitkeep`, `api/src/middleware/.gitkeep`, `api/src/queue/.gitkeep`, `api/src/jobs/.gitkeep`, `api/prisma/.gitkeep`, `api/tests/.gitkeep`, `worker/tests/.gitkeep`, `scripts/.gitkeep`, `deploy/.gitkeep`, `.github/workflows/.gitkeep`)
+- [x] 12. Verify: `find . -name .gitkeep -not -path './.git/*'` lists exactly the 10 paths. (no files)
+- [x] 13. Verify: `git check-ignore .env` prints `.env`, and `git status --short` does not list `.env`. (no files)
+- [x] 14. Verify: every password in `.env.example` is `change-me` and every value matches the spec; `diff .env.example .env` shows no differences. (no files)
+- [x] 15. Verify: `git status --short` shows only the files above, with no application code. (no files)
